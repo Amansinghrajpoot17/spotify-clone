@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPOTIFY-CLONE</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utility.css">  
+</head>
+  
+<body>
+  <div class="container flex bg-color">
+    <div class="left   "> 
+      <div class="close">
+        <img width="30
+        " class="invert" src="close.svg">
+      </div>
+      <div class="home bg-grey rounded m-1 p-1">  
+        <div class="logo" style="cursor: pointer;">
+          <img class="invert" src="logo.svg" alt="">
+        </div> 
+        <ul>
+          <li><img class="invert" src="home.svg" alt="HOME">HOME</li>
+          <li><img class="invert" src="search.svg" alt="SEARCH">SEARCH</li> 
+        </ul>
+      </div>  
+      <div class="library bg-grey rounded m-1 p-1">
+        <div class="heading">
+          <img class="play" src="playlist.svg" alt="">
+          <h2 style="font-size: 20px;">Your Library</h2>
+ 
+        </div>
+
+        <div class="action">
+          <!-- <img class="plusicon" src="plusicon.svg" alt=""> -->
+          <img class="plusicon" src="plusicon.svg" alt="">
+
+        </div>
+        <div class="song-list ">
+          <ul>
+
+          </ul>
+        </div>
+        <div class="footer">
+          <div><a href="https://www.spotify.com/in-en/legal/" id=""><span>Legal</span></a></div>
+          <div><a href="https://www.spotify.com/in-en/safetyandprivacy/" id=""><span>Safety & Privacy Center</span></a>
+          </div>
+          <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/" id=""><span>Privacy Policy</span></a></div>
+          <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/" id=""><span>Cookies</span></a></div>
+          <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" id=""><span>About Ads</span></a></div>
+        </div>
+      </div>
+    </div> 
+    <div class="right  border m-2  p-1 rounded  ">
+      <div class="header">
+        <div class="nav">
+          <div class="flex">
+          <img class="invert hamburger" src="hamburger.svg" alt="icon">
+
+
+          <svg fill="#fff" width="20px" height="20px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+            data-iconid="angle-left-solid" data-svgname="Angle left solid">
+            <path
+              d="M 19.03125 4.28125 L 8.03125 15.28125 L 7.34375 16 L 8.03125 16.71875 L 19.03125 27.71875 L 20.46875 26.28125 L 10.1875 16 L 20.46875 5.71875 Z">
+            </path>
+          </svg>
+          <svg fill="#fff" width="20px" height="20px" viewBox="0 0 512 512" data-name="Layer 1" id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg" data-iconid="rightarrow-arrow-direction-navigation-right-arrows"
+            data-svgname="Rightarrow arrow direction navigation right arrows">
+            <polygon points="150.46 478 129.86 456.5 339.11 256 129.86 55.49 150.46 34 382.14 256 150.46 478"></polygon>
+          </svg>
+        </div>
+        </div>
+        <div class="buttons">
+          <button class="Sign-UPbtn">Sign-UP</button>
+          <button class="Loginbtn">Log in</button>
+        </div>
+      </div>
+      <div class="spotify-playlist">
+        <h1>Trending Songs</h1>
+        <div class="card-container">
+          <div class="card ">
+            <div class="play-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="black" class="bi bi-play"
+                viewBox="0 0 16 16">
+                <path
+                  d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z" />
+              </svg>
+            </div>
+            <img src="https://i.scdn.co/image/ab67616d00001e0225fa2d19b2363a9520a34409" alt="image">
+            <h3><span>Arz Kiya Hai| coke studio bharat</span> </h3>
+            <p><span>Anuv Jain</span></p>
+          </div>
+          <div class="card ">
+            <div class="play-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="black" class="bi bi-play"
+                viewBox="0 0 16 16">
+                <path
+                  d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z" />
+              </svg>
+            </div>
+            <img src="	https://i.scdn.co/image/ab67616d00001e02b9270021f001a51f1c9f0c57" alt="image">
+            <h3><span>Bol Kaffara Kya Hoga </span> </h3>
+            <p><span style="font-size: 16px;">Dj Chetas, Neha Kakkar,Farhan Sabri</span></p>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+      <div class="playbar">
+        <div class="seekbar">
+          <div class="circle"></div>
+         </div>
+         <div class="abovebar">
+          <div class="songinfo">
+
+          </div>
+          <div class="song-buttons" style="cursor: pointer;">
+            <img id="previous" src="prev.svg" alt="">
+            <svg id="play" xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" fill="rgb(32,32,32)"
+              class="bi bi-play" viewBox="0 0 18 18">
+              <path
+                d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z" />
+            </svg>
+            <img id="next" src="next.svg" alt="">
+          </div>
+          <div class="songtime">
+ 
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+<script src="script.js"></script>  
+
+</html>       
