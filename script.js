@@ -15,7 +15,8 @@ async function getsongs() {
   return [
     "Arz Kiya Hai-(SambalpuriStar.In).mp3",
     "Bol_Kaffara_Kya_Hoga.mp3",
-    "Saiyaara(KoshalWorld.Com).mp3"
+    "Saiyaara(KoshalWorld.Com).mp3",
+    "Test Your Fight - Rod Kim.mp3"
 
   ];
 
