@@ -13,8 +13,9 @@ function formatTime(seconds) {
 
 async function getsongs() {
   return [
-    "Arz%20Kiya%20Hai.mp3",
-    "Bol%20Kaffara%20Kya%20Hoga.mp3"
+    "Arz Kiya Hai-(SambalpuriStar.In).mp3",
+    "Bol_Kaffara_Kya_Hoga.mp3",
+    "Saiyaara(KoshalWorld.Com).mp3"
 
   ];
 
