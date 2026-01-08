@@ -12,21 +12,11 @@ function formatTime(seconds) {
 }
 
 async function getsongs() {
-   let a = await fetch("http://127.0.0.1:5500/project/spotify%20clone/songs/")
-   let response = await a.text();
-   console.log(response);
- let div= document.createElement('div');
- div.innerHTML=response;
-  let as= div.getElementsByTagName("a")
- console.log(as);
- let songs= [];
-for (let index = 0; index < as.length; index++) {
-  const element = as[index];
-  if(element.href.endsWith(".mp3")){
-    songs.push(element.href.split("/songs/")[1]);
-  }
-}
-return(songs);
+  return [
+    "Arz%20Kiya%20Hai.mp3",
+    "Bol%20Kaffara%20Kya%20Hoga.mp3"
+
+  ];
 
 }
 let currentSong = new Audio();
